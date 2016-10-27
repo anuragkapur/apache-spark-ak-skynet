@@ -52,7 +52,7 @@ Pi is roughly 3.1435031435031435
 ```shell
 # The --master option specifies the master URL for a distributed cluster, or local to run locally with one thread,
 # or local[N] to run locally with N threads.
-[anuragkapur@ak-skynet spark-1.6.0-bin-hadoop2.6] $ ./bin/spark-shell --master local[2]
+$ ./bin/spark-shell --master local[2]
 ```
 
 ### Python interpreter
@@ -66,3 +66,6 @@ Pi is roughly 3.1435031435031435
 
 ### Spark programming guide
 [http://spark.apache.org/docs/latest/programming-guide.html](http://spark.apache.org/docs/latest/programming-guide.html)
+
+### Spark cluster mode
+[http://spark.apache.org/docs/latest/cluster-overview.html](http://spark.apache.org/docs/latest/cluster-overview.html)
